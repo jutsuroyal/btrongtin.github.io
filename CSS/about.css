@@ -1,0 +1,73 @@
+/* CSS Document */
+.about{
+	padding: 5px;
+}
+
+.about_title{
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+.about_details{
+	font-size: 15px;
+	text-align: justify;
+}
+
+ul .about_title_big{
+	list-style-type: none;
+}
+
+/*==========================SIGNUP LOGIN=================*/
+
+.signup_form {
+	width: 355px;
+	float: left;
+	padding: 0 0 0 75px;
+}
+
+.login_form {
+	width: 355px;
+	float: left;
+	padding: 0 0 0 75px;
+}
+
+/*==========================DETAIL=================*/
+
+.chitietsp{
+	width: 585px;
+	height: auto;
+}
+
+.anhchitiet{
+	width: 100px;
+	float: left;
+	padding: 5px 30px 5px 15px;
+}
+
+.thongtinchitiet ul li{
+	list-style: none;
+	font-size: 12px;
+	padding-top: 5px;
+	font-weight: bold;
+
+}
+
+.thongtinchitiet{
+	float: left;
+	width: 280px;
+	padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

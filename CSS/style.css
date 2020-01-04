@@ -1,0 +1,600 @@
+/* CSS Document */
+
+* { 
+	margin: 0px;
+	padding: 0px;
+}
+
+.clr { 
+	clear: both;
+}
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.main {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+/* ================================== TOP ================================ */
+.top {
+	width: 1000px;
+	height: 38px;
+	background-color: #4A4A4A;
+}
+
+.languages {
+	float: right;
+	width: 150px;
+	padding-top: 8px;
+}
+
+.languages div {
+	float: left;
+	color: #B3ADAD;
+	padding: 0 5px 0 0;
+}
+
+.languages a{
+	float: left;
+	display: block;
+	padding: 0  5px;
+}
+
+.search {
+	width: 370px;
+	height: 32px;
+	float: right;
+	background-color: whitesmoke;
+	border-radius: 10px 0 0 10px;
+}
+
+.search .search_text {
+	padding: 8px 0 0 15px;
+	float: left;
+	width: 110px;
+	color: #999999;
+}
+
+.search .search_text a {
+	color:#999999;
+	text-decoration: none;
+}
+
+.search .search_input{
+	width: 182px;
+	height: 18px;
+	margin-top: 5px;
+	border: 1px solid #dbdbdb;
+	float: left;
+	border-bottom-color: #ffffff;
+	border-right-color: #ffffff;
+}
+
+.search .search_bt{
+	float: left;
+	padding: 2px 0 0 15px;
+}
+/*=============================END TOP============================*/
+
+/* CSS Document */
+
+.header {
+	background: url("../Image/background.jpg")repeat-x center;
+	width: 1000px;
+	height: 173px;
+}
+
+#logo {
+	float: left;
+	padding: 15px;
+}
+
+
+
+/*==============================END HEADER======================*/
+
+/* CSS Document */
+
+#menu_tab {
+	width: 1000px;
+	height: 50px;
+	background-color: #0055A8;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+ul.menu {
+	list-style-type: none;
+	float: left;
+	display: block;
+	width: 1000px;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.menu li {
+	display: inline;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 50px;
+
+}
+
+
+ul.menu li a,ul.menu li a:visited {
+	display: block;
+	float: left;
+	padding: 0px 8px 0px 22px;
+	margin: 0 14px 0 14px;
+	height: 50px;
+	text-decoration: none;
+	color: white;
+}
+
+ul.menu li a:hover{
+	color: #333333;
+}
+
+/*===================================END MENU=========================*/
+
+/* CSS Document */
+
+.left_content {
+	width: 196px;
+	float: left;
+}
+
+.title_box {
+	width: 196px;
+	height: 30px;
+	background-color: #51A9FF;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 30px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-top: 7px;
+}
+
+ul.left_menu {
+	width: 196px;
+	list-style: none;
+}
+
+
+ul.left_menu li.odd a{
+	width: 166px;
+	height: 25px;
+	display: block;
+	background: url("../Image/checked.png") no-repeat left #dad0d0;
+	text-decoration: none;
+	color:#504b4b ;
+	line-height: 25px;
+	background-position: 5px 5px;
+	padding: 0 0 0 30px;
+}
+
+ul.left_menu li.even a{
+	width: 166px;
+	height: 25px;
+	display: block;
+	background: url("../Image/checked.png") no-repeat left #eee6e6;
+	text-decoration: none;
+	color: #504b4b;
+	line-height: 25px;
+	background-position: 5px 5px;
+	padding: 0 0 0 30px;
+}
+
+ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover{
+	background: url("../Image/checked.png") no-repeat left #51A9FF;
+	color: #fff;
+	background-position: 5px 5px;
+}
+.border_box {
+	width: 194px;
+	height: auto;
+	text-align: center;
+	border: 1px solid #6da6b1;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: whitesmoke;
+}
+
+.product_title {
+	padding: 5px 0;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.product_title a {
+	color: #ea2222;
+	text-decoration: none;
+	
+}
+
+.product_title a:hover {
+	color: #064E5A;
+}
+
+.product_img {
+	padding: 5px 0;
+}
+
+.product_price {
+	padding: 5px 0;
+}
+
+span.reduce{
+	text-decoration: line-through;
+	color: #999;
+}
+
+span.price{
+	color: #ea2222;
+}
+
+.newsletter_input{
+	width: 160px;
+	height: 16px;
+	border: 1px solid #dd9d9l;
+	font-size: 12px;
+	color: #999;
+	margin: 10px 0 5px 0;
+	padding: 3px;
+}
+
+a.join {
+	width: 17px;
+	display: block;
+	margin: 5px 0 5px 140px;
+	padding: 0 0 0 20px;
+	text-decoration: none;
+	color: #1c4a52;
+	font-size: 15px;
+
+}
+
+.banner_adds {
+	width: 194px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+/*==========================END LEFT CONTENT================*/
+
+
+/*=========================END NAV=====================*/
+
+/* CSS Document */
+
+.center_content {
+	width: 585px;
+	float: left;
+	padding: 5px 10px;
+}
+
+.center_title_bar{
+	width: 530px;
+	height: 33px;
+	float: left;
+	background-color: #51A9FF;
+	border-radius: 10px;
+	padding: 1px 0 0 28px;
+	line-height: 33px;
+	margin: 0 0 0 12px;
+	font-weight: bold;
+	color: white;
+	font-size: 12px;
+}
+
+.prod_box {
+	width: 173px;
+	height: auto;
+	float: left;
+	padding: 10px 10px 10px 11px;
+}
+
+
+.center_prod_box {
+	width: 173px;
+	height: auto;
+	float:left;
+	text-align: center;
+	background-color: whitesmoke;
+	border-radius: 10px; 
+}
+
+.prod_details_tab {
+	width: 173px;
+	height: 31px;
+	float: left;
+	margin: 3px 0 0 0;
+	background-color: whitesmoke;
+	border-radius: 5px;
+}
+
+img.left_bt {
+	float: left;
+	padding: 6px 0 0 6px;
+}
+
+a.prod_details {
+	width: 25px;
+	display: block;
+	float: left;
+	padding: 0 0 0 20px;
+	background: url("../Image/square-blue-add.gif") no-repeat left;
+	margin: 10px 0 0 35px;
+	text-decoration: none;
+	color: #0fa0dd;
+}
+
+/*==================END CENTER CONTENT=================*/
+
+/* CSS Document */
+
+.right_content {
+	width: 196px;
+	float: left;
+	padding: 5px 0 0 0;
+}
+
+.shopping_cart {
+	width: 195px;
+	height: 84px;
+	text-align: center;
+	background-color: whitesmoke;
+	border-radius: 10px;
+}
+
+.cart_title {
+	font-size: 12px;
+	color: #ea2222;
+	font-weight: bold;
+	padding: 8px 0 0 0;
+}
+
+.cart_details {
+	width: 115px;
+	float: left;
+	padding: 5px 0 0 15px;
+	text-align: left;
+}
+
+.cart_icon {
+	float: left;
+	padding: 5px 0 0 5px;
+}
+
+span.border_cart {
+	width: 100px;
+	height: 1px;
+	margin: 3px 0 3px 0;
+	display: block;
+	border-top: 1px #999999 dashed;
+}
+
+/*======================END RIGHT CONTENT==============*/
+
+/* CSS Document */
+
+.footer {
+	width: 1000px;
+	height: 65px;
+	background-color: whitesmoke;
+}
+
+
+.left_footer {
+	float: left;
+	width: 300px;
+	padding: 5px 0 0 10px;
+}
+
+.right_footer {
+	float: right;
+	padding: 15px 30px 0 0;
+}
+
+.right_footer a{
+	text-decoration: none;
+	padding: 0 0 0 7px;
+	color: #666;
+}
+
+.right_footer a:hover{
+	text-decoration: underline;
+}
+
+.center_footer {
+	float: left;
+	width: 200px;
+	text-align: center;
+	color: #666666;
+	padding: 10px 0 0 60px;
+}
+
+/*=============================END FOOTER==============*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
